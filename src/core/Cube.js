@@ -1,4 +1,3 @@
-import { Constants } from './Constants.js';
 import { Mesh } from './Mesh.js';
 
 export class Cube extends Mesh {
@@ -18,7 +17,6 @@ export class Cube extends Mesh {
     ];
 
     this.normals = [
-      // simplified normals
       0,0,-1, 0,0,-1,0,0,-1,0,0,-1,
       0,0,1, 0,0,1,0,0,1,0,0,1
     ];
